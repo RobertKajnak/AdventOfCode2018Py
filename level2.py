@@ -14,14 +14,14 @@ for line in f:
     
 
 s=0
-history =[]
+history ={}
 found = False
 while (True):
     for num in nums:
         if s in history:
             found = True
             break
-        history.append(s)
+        history[s] = 0
         s = s+ num    
     if found:
         break
