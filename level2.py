@@ -6,7 +6,7 @@ Created on Sat Dec  1 19:53:16 2018
 """
 
 
-f = open('level2.txt')
+f = open('level2.in')
 
 nums =[]
 for line in f:

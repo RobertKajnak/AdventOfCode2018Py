@@ -6,7 +6,7 @@ Created on Sat Dec  1 19:53:16 2018
 """
 
 
-f = open('level1.txt')
+f = open('level1.in')
 
 s=0
 for line in f:
