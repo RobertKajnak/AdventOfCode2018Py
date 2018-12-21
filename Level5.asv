@@ -1,0 +1,14 @@
+
+f = fopen('level5.in','r');
+
+M=[];
+while ~feof(f)
+    M(:,end+1)=fscanf(f,'#%d @ %d,%d: %dx%d\n',[5,1]);
+end
+
+fclose(f);
+
+A = zeros(,
+for i=1:size(M,1)
+    
+end
